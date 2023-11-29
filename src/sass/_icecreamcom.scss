@@ -1,0 +1,26 @@
+body {
+    color: var(--White);
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.16px;
+    letter-spacing: 0.56px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
