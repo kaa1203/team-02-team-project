@@ -14,7 +14,7 @@
 .hero-wrapper {
     display: flex;
     justify-content: space-between;
-    padding-top: 60px;
+    padding-top: 150px;
 }
 
 .hero-headings {
@@ -51,6 +51,7 @@
 
 .hero-business::before {
     content: "";
+    display: block;
     position: absolute;
     top: -10px;
     right: -15px;
@@ -58,4 +59,74 @@
     height: 30px;
     background-color: var(--White);
     border-radius: 50%;
+}
+
+.hero-slider {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.slider.one {
+    background: url(../images/hero-1.png) no-repeat center;
+    width: 215px;
+    height: 215px;
+    margin-top: 40px;
+}
+
+.slider.two {
+    position: absolute;
+    top: -125%;
+    right: 10%;
+}
+
+.slider-bg {
+    display: block;
+    width: 535px;
+    height: 535px;
+    background-color: var(--Pink);
+    border-radius: 50%;
+}
+
+.slider.two::after {
+    content: "";
+    position: absolute;
+    top: 11.6%;
+    right: 30%;
+    display: block;
+    width: 235px;
+    height: 555px;
+    background: url(../images/hero-2.png) no-repeat center;
+
+}
+
+.slider.three {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background: url(../images/hero-3.png) no-repeat center;
+    background-size: cover;
+    width: 305px;
+    height: 240px;
+}
+
+.slider-text-wrapper {
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    width: 210px;
+}
+
+.slider-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+
+.slider-text-wrapper .icon-s {
+    width: 26px;
+    height: 26px;
+    padding: 7px;
+    margin-top: 15px;
+    border-radius: 50%;
+    background-color: var(--White);
 }
