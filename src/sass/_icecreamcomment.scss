@@ -23,6 +23,11 @@
     fill: #E1E1E1;
 }
 
+.comment-three-dots {
+    display: flex;
+    justify-content: center;
+}
+
 .three-dots {
     align-items: center;
     fill: #C7133E;
@@ -32,4 +37,8 @@
     display: flex;
     justify-content: center;
     gap: 18px;
+}
+
+.comment-house-icon {
+    fill: #C7133E;
 }
