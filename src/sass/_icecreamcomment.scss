@@ -24,6 +24,12 @@
 }
 
 .three-dots {
-    align-content: center;
+    align-items: center;
     fill: #C7133E;
+}
+
+.comment-icon {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
 }
