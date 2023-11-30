@@ -41,10 +41,16 @@ body {
 .button {
     display: inline-block;
     text-align: center;
+    background-color: var(--Dark-Red-Pink);
     color: inherit;
     border-radius: 20px;
     padding: 6px 16px;
     margin-right: 12px;
+}
+
+.button:hover {
+    color: var(--Dark-Red-Pink);
+    background-color: var(--White);
 }
 
 .image {

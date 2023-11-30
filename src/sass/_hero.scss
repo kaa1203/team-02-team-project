@@ -23,15 +23,6 @@
     gap: 24px;
 }
 
-.hero .button:first-child {
-    background-color: var(--Dark-Red-Pink);
-}
-
-.hero .button:not(:first-child) {
-    color: var(--Dark-Red-Pink);
-    background-color: var(--White);
-}
-
 .hero-business-wrapper>div {
     display: flex;
     flex-direction: column;
