@@ -123,17 +123,13 @@
     background-color: var(--White);
 }
 
-@media (max-width: 432px) {
-    .container {
-        width: 320px;
+@media (max-width:779px) {
+    .hero {
         overflow-x: hidden;
     }
-}
 
-@media (max-width:779px) {
     .container {
         width: 320px;
-        // overflow-x: hidden;
     }
 
     .hero-wrapper {
@@ -229,6 +225,10 @@
         right: -7px;
     }
 
+    .hero-slider {
+        padding-bottom: 17px;
+    }
+
     .slider.one {
         width: 154px;
         height: 154px;
@@ -238,7 +238,7 @@
     }
 
     .slider.two {
-        top: -95.5%;
+        top: -118.5%;
         right: 26.5%;
     }
 
