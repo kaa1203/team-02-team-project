@@ -23,6 +23,18 @@
     fill: #E1E1E1;
 }
 
+.comment-text {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: transparent 1px black;
+    width: 968px;
+    height: 138px;
+    margin-left: 116px;
+    margin-right: 116px;
+    background: #FAFAFA;
+}
+
 .comment-three-dots {
     display: flex;
     justify-content: center;
