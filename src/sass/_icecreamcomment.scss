@@ -19,9 +19,18 @@
     line-height: 186%;
 }
 
+.icecream-pictures {
+    display: flex;
+}
+
 .comment-image {
     display: flex;
     justify-content: center;
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: column;
 }
 
 .comment-quote {
