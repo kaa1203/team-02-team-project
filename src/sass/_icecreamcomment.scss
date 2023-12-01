@@ -27,6 +27,10 @@
     grid-auto-flow: dense;
 }
 
+.icecream-grid-wrapper .wide {
+    grid-column: span 2;
+}
+
 .icecream-grid-photo {
     display: flex;
     justify-content: center;
