@@ -90,5 +90,11 @@
 }
 
 @media screen and (min-widht: 768px) and (max-width: 1199px) {
+    .testimonial {
+        display: flex;
+        flex-wrap: wrap;
+        width: 492px;
+        height: 83px;
+    }
     
 }
