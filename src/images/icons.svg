@@ -41,6 +41,7 @@
         <symbol id="facebook" viewBox="0 0 32 32">
             <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
         </symbol>
+      
         <!-- comment section icons -->
         <symbol id="Ellipse" viewBox="0 0 32 32">
             <path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
@@ -60,6 +61,7 @@
             <path d="M0 1L821 1.00007" stroke="#E1E1E1"/>
         </symbol>
 </symbol>
-
+    </defs>
+</svg>
     </defs>
 </svg>
