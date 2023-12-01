@@ -19,11 +19,18 @@
     line-height: 186%;
 }
 
-.icecream-pictures {
+.icecream-grid-photo {
     display: flex;
-    gap: 8px;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.icecream-grid-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .comment-image {

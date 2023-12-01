@@ -36,6 +36,13 @@ body {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
 // h2
 .heading-two { 
     color: var(--Dark-Red-Pink);
