@@ -12,12 +12,11 @@
 
 .icecream-photos {
     background-image: url("../images/icecream-group.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 1013px;
+    height: 430px;
+
 }
 
 .icecream-images {
@@ -114,8 +113,6 @@
 
     .icecream-images {
         max-width: 100%;
-        object-fit: cover;
-        object-position: center;
         margin-top: 39px;
     }
 
@@ -161,9 +158,6 @@
     }
 
     .icecream-images {
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
         margin-top: 18px;
     }
 
