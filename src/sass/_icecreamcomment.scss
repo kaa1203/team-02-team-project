@@ -58,10 +58,8 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 100%;
+    width: 968px;
     height: 138px;
-    margin-left: 116px;
-    margin-right: 116px;
     background: #FAFAFA;
 }
 
@@ -82,6 +80,7 @@
     justify-content: center;
     gap: 18px;
     margin-top: 32px;
+    margin-bottom: 120px;
 }
 
 .comment-house-icon {
@@ -188,6 +187,11 @@
     .comment-image {
         margin-top: 60px;
         margin-bottom: 20px;
+    }
+
+    .comment-text {
+        width: 620px;
+        height: 164px;
     }
 
     .comment-symbols {
