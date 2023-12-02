@@ -11,6 +11,7 @@
 
 .icecream-images {
     width: 100%;
+    margin-top: 93px;
 }
 
 .comment-add {
@@ -99,7 +100,10 @@
     }
 
     .icecream-images {
-        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+        margin-top: 39px;
     }
 
     .comment-section {
@@ -144,6 +148,9 @@
 
     .icecream-images {
         width: 100%;
+        object-fit: cover;
+        object-position: center;
+        margin-top: 18px;
     }
 
     .testimonial {
