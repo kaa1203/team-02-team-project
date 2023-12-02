@@ -108,6 +108,7 @@
         margin-top: 20px;
         margin-left: -35px;
         z-index: 2;
+        padding-right: 0;
     }
 
     .icecream-photos {
@@ -144,10 +145,12 @@
     }
 
     .comment-quote {
-        margin-top: -180px;
+        margin-top: -192px;
         margin-left: -40px;
         position: relative;
         z-index: 1;
+        width: 54px;
+        height: 40px;
     }
 
     .comment-symbols {
