@@ -1,0 +1,151 @@
+.last {
+    width: 1200px;
+    height: 877px;
+    flex-shrink: 0;
+    background: #FFF5F6;
+  padding-top:499px;
+  position: relative;
+}
+.info {
+  max-width: 1200px;
+  height: 44px;
+  display:inline-flex;
+  margin-top:499px;
+}
+.company-location {
+  box-sizing: border box;
+   width: 198px;
+height: 44px;
+flex-shrink: 0;
+  border-radius: 22px;
+background: #D41342;
+  margin-left: 411px;
+  padding-top: 22px;
+}
+.company-location a{
+  text-decoration: none;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  color: #FFF;
+text-align: center;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+.company-franchise {
+  border-radius: 22px;
+background: #FFF;
+  box-sizing:border box;
+width: 168px;
+height: 44px;
+flex-direction: column;
+flex-shrink: 0;
+  margin-left: 12px;
+  padding-left:36.4px;
+  padding-top:23px;
+  
+}
+.company-franchise a {
+  text-decoration:none;
+  color: #D41443;
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  margin-top: 5px;
+}
+.product {
+  box-sizing:border-box;
+  width:474px;
+  heigth:1700px;
+  display:flex;
+  flex-direction:column;
+  margin-left: 16px;
+  margin-top:0px;
+}
+.homemade{
+  height:34px;
+  width:472px;
+}
+.homemade h3{
+  color: #FFA5BA;
+font-family: Titan One;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+.passion{
+  width:474px;
+  height:66px;
+  margin-top:16px;
+  box-sizing:border-box;
+}
+.passion h2{
+  color: #D41443;
+font-family: Titan One;
+font-size: 58px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 3.48px;
+text-transform: uppercase;
+}
+.contact-info{
+  width:319px;
+  height:104px;
+   display:flex;
+  flex-direction:column;
+  margin-left:865px;
+  margin-top:6px;
+}
+.icon{
+  width:162px;
+  height:34px;
+  margin-left:157px;
+  margin-top:132px;
+}
+.fell{
+  width:319px;
+  height:30px;
+  margin-top:40px;
+}
+.feel .free{
+  color: #000;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 186%; /* 29.76px */
+letter-spacing: 0.32px;
+}
+.feel .end{
+  text-decoration:none;
+  color: #D41443;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 186%;
+letter-spacing: 0.32px;
+}
+.end-footer{
+  width:278px;
+  height:26px;
+  margin-left:462px;
+}
+.end-footer p{
+  color: #907E82;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 186%; /* 26.04px */
+letter-spacing: 0.28px;
+}
