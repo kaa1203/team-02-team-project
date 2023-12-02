@@ -94,6 +94,10 @@
         align-items: center;
     }
 
+    .icecream-images {
+        width: 100%;
+    }
+
     .comment-section {
         display: flex;
         flex-wrap: wrap;
@@ -131,7 +135,11 @@
 
 @media screen and (min-widht: 768px) and (max-width: 1199px) {
     .container {
-        width: 720px;
+        width: 768px;
+    }
+
+    .icecream-images {
+        width: 100%;
     }
 
     .testimonial {
