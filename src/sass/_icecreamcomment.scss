@@ -52,8 +52,7 @@
 
 .comment-quote {
     fill: #E1E1E1;
-    margin-top: -50px;
-    padding-right: 16px;
+    margin-top: -45px;
 }
 
 .comment-text {
@@ -143,7 +142,6 @@
     .comment-quote {
         margin-top: -180px;
         margin-left: -40px;
-        padding-right: 0;
     }
 
     .comment-symbols {
@@ -178,6 +176,9 @@
         letter-spacing: 0.56px;
         width: 492px;
         height: 83px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .comment-section {
         display: flex;
@@ -196,7 +197,7 @@
     }
 
     .comment-quote {
-        padding-right: 0;
+        margin-top: -80px;
     }
 
     .comment-symbols {
