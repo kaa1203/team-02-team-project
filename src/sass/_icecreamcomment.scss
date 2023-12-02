@@ -8,6 +8,29 @@
     font-weight: 500;
     line-height: 186%;
     letter-spacing: 0.64px;
+    width: 750px;
+    height: 52px;
+    padding-right: 108px;    
+    position: relative;
+}
+
+.testimonial-2::after,
+.testimonial-2::before {
+    content: '';
+    display: block;
+    width: 110%;
+    height: 2px;
+    background-color: #E1E1E1;;
+}
+
+.icecream-photos {
+    background-image: url("../images/icecream-group.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1013px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 90px;
 }
 
 .icecream-images {
@@ -35,25 +58,22 @@
 .comment-image {
     width: 85px;
     height: 85px;
-    margin-bottom: 68px;
-    margin-top: 120px;
+    margin-bottom: 16px;
 }
 
 .comment-quote {
     fill: #E1E1E1;
-    margin-top: -50px;
-    padding-right: 16px;
+    margin-top: -45px;
 }
 
 .comment-text {
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 100%;
+    width: 968px;
     height: 138px;
-    margin-left: 116px;
-    margin-right: 116px;
     background: #FAFAFA;
+    position: relative;
 }
 
 .comment-three-dots {
@@ -73,6 +93,7 @@
     justify-content: center;
     gap: 18px;
     margin-top: 32px;
+    margin-bottom: 120px;
 }
 
 .comment-house-icon {
@@ -85,30 +106,32 @@
 
 
 @media (max-width: 779px) {
-    .container {
-        width: 100%;
-    }
-    
+        
     .testimonial {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
         width: 157px;
         height: 213px;
+        font-size: 12px;
+        line-height: 260%;
+        letter-spacing: 0.48px;
+        position: relative;
+        margin-top: 20px;
+        margin-left: -35px;
+        z-index: 2;
+        padding-right: 0;
     }
 
     .icecream-photos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        background-image: url("../images/icecream-group-mobile.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 320px;
+        height: 136px;
     }
 
     .icecream-images {
         max-width: 100%;
-        object-fit: cover;
-        object-position: center;
         margin-top: 39px;
     }
 
@@ -123,19 +146,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 60px;
+        margin-bottom: 32px;
     }
 
     .comment-text {
-        width: 157px;
-        height: 213px;
-        margin-left: 65px;
-        margin-right: 58px;
+        width: 280px;
+        height: 307px;
     }
 
     .comment-quote {
-        margin-top: -180px;
+        margin-top: -192px;
         margin-left: -40px;
-        padding-right: 0;
+        position: relative;
+        z-index: 1;
+        width: 54px;
+        height: 40px;
     }
 
     .comment-symbols {
@@ -144,36 +170,72 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 120px;
     }  
+    .comment-icon {
+        margin-bottom: 60px;
+    }
 }
 
 @media screen and (min-width: 780px) and (max-width: 1199px) {
-    .container {
-        width: 100%;
+    .icecream-photos {
+        background-image: url("../images/icecream-group-tablet.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 780px;
+        height: 327px;
     }
 
     .icecream-images {
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
         margin-top: 18px;
     }
 
     .testimonial {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        font-size: 14px;
+        line-height: 214%;
+        letter-spacing: 0.56px;
         width: 492px;
         height: 83px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+        margin-left: -10px;
+        padding-right: 18px;
     }
     .comment-section {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .comment-image {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
 
+    .comment-text {
+        width: 620px;
+        height: 164px;
+    }
+
+    .comment-quote {
+        margin-top: -83px;
+        position: relative;
+        z-index: 1;
+        width: 60.353px;
+        height: 40px;
+    }
+
+    .comment-symbols {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comment-icon {
+        margin-bottom: 80px;
     }
     
 }
