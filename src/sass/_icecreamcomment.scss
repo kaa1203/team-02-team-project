@@ -85,10 +85,7 @@
 
 
 @media (max-width: 779px) {
-    .container {
-        width: 100%;
-    }
-    
+        
     .testimonial {
         display: flex;
         flex-wrap: wrap;
@@ -149,10 +146,9 @@
 }
 
 @media screen and (min-width: 780px) and (max-width: 1199px) {
-    .container {
+    .icecream-photos {
         width: 100%;
     }
-
     .icecream-images {
         width: 100%;
         object-fit: cover;
