@@ -98,10 +98,11 @@
     .testimonial {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         width: 157px;
         height: 213px;
         font-size: 12px;
+        line-height: 260%;
+        letter-spacing: 0.48px;
     }
 
     .icecream-photos {
