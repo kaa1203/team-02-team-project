@@ -126,12 +126,14 @@
         justify-content: center;
         align-items: center;
         margin-top: 120px;
-    }
-
-   
+    }  
 }
 
 @media screen and (min-widht: 768px) and (max-width: 1199px) {
+    .container {
+        width: 720px;
+    }
+
     .testimonial {
         display: flex;
         flex-wrap: wrap;
