@@ -100,12 +100,18 @@
         align-items: center;
     }
 
+    .comment-text {
+        width: 157px;
+        height: 213px;
+    }
+
     .comment-symbols {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 120px;
     }
 
    
