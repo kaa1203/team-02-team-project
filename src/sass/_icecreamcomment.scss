@@ -14,15 +14,6 @@
     position: relative;
 }
 
-.testimonial-2::after,
-.testimonial-2::before {
-    content: '';
-    display: block;
-    width: 110%;
-    height: 2px;
-    background-color: #E1E1E1;;
-}
-
 .icecream-photos {
     background-image: url("../images/icecream-group.jpg");
     background-size: contain;
