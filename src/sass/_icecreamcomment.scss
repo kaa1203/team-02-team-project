@@ -8,6 +8,8 @@
     font-weight: 500;
     line-height: 186%;
     letter-spacing: 0.64px;
+    width: 750px;
+    height: 52px;
 }
 
 .icecream-photos {
@@ -191,6 +193,10 @@
     .comment-text {
         width: 620px;
         height: 164px;
+    }
+
+    .comment-quote {
+        padding-right: 0;
     }
 
     .comment-symbols {
