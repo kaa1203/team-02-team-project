@@ -25,8 +25,14 @@
     line-height: 186%;
 }
 
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .comment-image {
-    margin-left: 558px;
     width: 85px;
     height: 85px;
     margin-bottom: 68px;
@@ -43,8 +49,7 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    border: transparent 1px black;
-    width: 968px;
+    width: 100%;
     height: 138px;
     margin-left: 116px;
     margin-right: 116px;
@@ -109,14 +114,15 @@
 
     .comment-section {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
     .comment-image {
-        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .comment-text {
@@ -142,7 +148,7 @@
     }  
 }
 
-@media screen and (min-widht: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     .container {
         width: 100%;
     }
@@ -161,6 +167,13 @@
         align-items: center;
         width: 492px;
         height: 83px;
+    }
+    .comment-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
     
 }
