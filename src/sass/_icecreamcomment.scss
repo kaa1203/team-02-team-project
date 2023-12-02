@@ -99,9 +99,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
         width: 157px;
         height: 213px;
+        font-size: 12px;
     }
 
     .icecream-photos {
@@ -133,10 +133,8 @@
     }
 
     .comment-text {
-        width: 157px;
-        height: 213px;
-        margin-left: 65px;
-        margin-right: 58px;
+        width: 280px;
+        height: 307px;
     }
 
     .comment-quote {
