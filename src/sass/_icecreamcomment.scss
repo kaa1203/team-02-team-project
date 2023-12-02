@@ -116,7 +116,9 @@
     }
 
     .comment-image {
-        margin-left: 0;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
     }
 
     .comment-text {
