@@ -11,14 +11,16 @@
     width: 750px;
     height: 52px;
     padding-right: 108px;    
+    position: relative;
 }
 
-.testimonial::after {
+.testimonial-2::after,
+.testimonial-2::before {
     content: '';
     display: block;
-    width: 100%;
+    width: 110%;
     height: 2px;
-    background-color: green;
+    background-color: #E1E1E1;;
 }
 
 .icecream-photos {
@@ -71,6 +73,7 @@
     width: 968px;
     height: 138px;
     background: #FAFAFA;
+    position: relative;
 }
 
 .comment-three-dots {
