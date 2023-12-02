@@ -85,7 +85,22 @@
         height: 213px;
     }
 
+    .icecream-photos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
     .comment-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comment-symbols {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
