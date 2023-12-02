@@ -104,8 +104,9 @@
         line-height: 260%;
         letter-spacing: 0.48px;
         position: relative;
-        margin-top: 47px;
-        margin-left: 65px;
+        margin-top: 20px;
+        margin-left: -35px;
+        z-index: 1;
     }
 
     .icecream-photos {
@@ -145,6 +146,7 @@
         margin-top: -180px;
         margin-left: -40px;
         position: relative;
+        z-index: 2;
     }
 
     .comment-symbols {
@@ -153,7 +155,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 120px;
     }  
     .comment-icon {
         margin-bottom: 60px;
@@ -182,6 +183,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
+        z-index: 1;
     }
     .comment-section {
         display: flex;
@@ -201,6 +204,8 @@
 
     .comment-quote {
         margin-top: -80px;
+        position: relative;
+        z-index: 2;
     }
 
     .comment-symbols {
