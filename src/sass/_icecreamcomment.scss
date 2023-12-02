@@ -1,3 +1,4 @@
+
 .testimonial {
     color: #000;
     text-align: center;
@@ -7,6 +8,11 @@
     font-weight: 500;
     line-height: 186%;
     letter-spacing: 0.64px;
+}
+
+.icecream-images {
+    width: 100%;
+    margin-top: 93px;
 }
 
 .comment-add {
@@ -25,11 +31,6 @@
     height: 85px;
     margin-bottom: 68px;
     margin-top: 120px;
-}
-
-.comment-section {
-    display: flex;
-    flex-direction: column;
 }
 
 .comment-quote {
@@ -79,6 +80,10 @@
 
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    
     .testimonial {
         display: flex;
         flex-wrap: wrap;
@@ -88,10 +93,67 @@
         height: 213px;
     }
 
-   
+    .icecream-photos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icecream-images {
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+        margin-top: 39px;
+    }
+
+    .comment-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comment-image {
+        margin-left: 0;
+    }
+
+    .comment-text {
+        width: 157px;
+        height: 213px;
+        margin-left: 65px;
+        margin-right: 58px;
+    }
+
+    .comment-quote {
+        margin-top: -180px;
+        margin-left: -40px;
+        padding-right: 0;
+    }
+
+    .comment-symbols {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+    }  
 }
 
 @media screen and (min-widht: 768px) and (max-width: 1199px) {
+    .container {
+        width: 100%;
+    }
+
+    .icecream-images {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        margin-top: 18px;
+    }
+
     .testimonial {
         display: flex;
         flex-wrap: wrap;
