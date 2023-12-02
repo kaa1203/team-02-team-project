@@ -11,6 +11,11 @@
     width: 750px;
     height: 52px;
     padding-right: 108px;
+    content: '';
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    background-color: #E1E1E1;
 }
 
 .icecream-photos {
