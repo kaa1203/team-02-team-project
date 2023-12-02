@@ -16,7 +16,6 @@
     background-repeat: no-repeat;
     width: 1013px;
     height: 430px;
-
 }
 
 .icecream-images {
@@ -105,11 +104,13 @@
     }
 
     .icecream-photos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        background-image: url("../images/icecream-group-mobile.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 320px;
+        height: 136px;
     }
+
 
     .icecream-images {
         max-width: 100%;
@@ -154,7 +155,11 @@
 
 @media screen and (min-width: 780px) and (max-width: 1199px) {
     .icecream-photos {
-        width: 100%;
+        background-image: url("../images/icecream-group-tablet.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 780px;
+        height: 327px;
     }
 
     .icecream-images {
@@ -174,7 +179,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
 
+    .comment-symbols {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
 }
