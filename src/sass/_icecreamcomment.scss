@@ -13,14 +13,6 @@
     padding-right: 108px;    
 }
 
-.testimonial::after {
-    content: '';
-    height: 1px;
-    width: 100%;
-    position: absolute;
-    background-color: #E1E1E1;
-}
-
 .icecream-photos {
     background-image: url("../images/icecream-group.jpg");
     background-size: contain;
