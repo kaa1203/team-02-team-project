@@ -1,12 +1,14 @@
 .him-section {
     background: #FFF5F6;
     position: relative;
-    z-index: 1;
+    // z-index: 1;
+    margin-top: 60px;
 }
 
 .heading-four {
     color: var(--Pink); 
     text-align: center;
+    padding-top: 60px;
 }
 
 .heading-two {
@@ -21,20 +23,19 @@
     width: 1200px;
     height: 521px;
     position: relative;
-    z-index: 2;
+    // z-index: 2;
 }
 
-.him-img-text {
-    display: flex;
-    flex-direction: column;
-
-}
+// .him-img-text {
+//     display: flex;
+//     flex-direction: column;
+// }
 
 .him-cow-milk {
     width: 501px;
     height: 501px;
     position: relative;
-    z-index: 3;
+    // z-index: 3;
 }
 
 .him-par-1 {
@@ -62,11 +63,11 @@
     background: var(--White);
 }
 
-.him-icons {
-    display: flex;
-    flex-direction: column;
+// .him-icons {
+//     display: flex;
+//     flex-direction: column;
     
-}
+// }
 
 .him-info {
     color: var(--Black);
