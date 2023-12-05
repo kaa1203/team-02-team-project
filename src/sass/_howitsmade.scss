@@ -1,3 +1,9 @@
+.him-section {
+    background: #FFF5F6;
+    position: relative;
+    z-index: 1;
+}
+
 .heading-four {
     color: var(--Pink); 
     text-align: center;
@@ -13,8 +19,15 @@
     background-size: contain;
     width: 1200px;
     height: 521px;
+    position: relative;
+    z-index: 2;
 }
 
-.him-section {
-    background: #FFF5F6;
+.him-cow-milk {
+    position: relative;
+    z-index: 3;
 }
+
+
+
+
