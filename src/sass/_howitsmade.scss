@@ -14,7 +14,8 @@
 }
 
 .him-bg {
-    background-image: url('../images/him-section-bg.jpg');
+    background: url('../images/him-section-bg.jpg'),
+                 lightgray 0px -0.163px / 100% 100.063%;
     background-repeat: no-repeat;
     background-size: contain;
     width: 1200px;
@@ -24,6 +25,8 @@
 }
 
 .him-cow-milk {
+    width: 501px;
+    height: 501px;
     position: relative;
     z-index: 3;
 }
