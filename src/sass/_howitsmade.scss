@@ -35,6 +35,8 @@
     color: var(--Black);
     line-height: 176%;
     letter-spacing: 0.64px;
+    width: 400px;
+    height: 104px;
 }
 
 .him-par-2 {
@@ -42,6 +44,14 @@
     font-size: 14px;
     line-height: 194%;
     letter-spacing: 0.56px;
+    width: 401px;
+    height: 130px;
+}
+
+.him-icons {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
