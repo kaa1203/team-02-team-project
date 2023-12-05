@@ -54,6 +54,14 @@
     height: 130px;
 }
 
+.him-button {
+    width: 176px;
+    height: 44px;
+    border: none;
+    border-radius: 22px;
+    background: var(--White);
+}
+
 .him-icons {
     display: flex;
     flex-direction: column;
@@ -66,6 +74,7 @@
     line-height: 176%;
     letter-spacing: 0.32px;
 }
+
 
 
 
