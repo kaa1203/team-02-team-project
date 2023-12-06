@@ -1,5 +1,5 @@
 .him-section {
-    background: #FFF5F6;
+    // background: #FFF5F6;
     position: relative;
     margin-top: 60px;
 }
@@ -24,6 +24,7 @@
     height: 521px;
     border: none;
     position: relative;  
+    z-index: 1;
 }
 
 .him-img-text {
@@ -37,6 +38,7 @@
     height: 501px;
     margin-left: 16px;
     position: relative;   
+    z-index: 1;
 }
 
 .him-texts {
