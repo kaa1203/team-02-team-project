@@ -25,6 +25,7 @@
     border: none;
     position: relative;  
     z-index: 1;
+    background: #FFF5F6;
 }
 
 .him-img-text {
@@ -43,6 +44,7 @@
 
 .him-texts {
     padding-left: 99px;
+    background: #FFF5F6;
 }
 
 .him-par-1 {
@@ -141,6 +143,8 @@
 
     .him-bg {
         background: none;
+        width: 0;
+        height: 0;
     }
 
     .him-cow-milk {
