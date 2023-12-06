@@ -269,8 +269,18 @@
         margin-bottom: 20px;
     }
 
+    .him-button {
+        margin-left: 20px;
+    }
+
    .him-details {
         margin-top: 195px;
+        flex-direction: column;
+   }
+
+   .him-icons {
+    margin-top: 40px;
+    margin-left: 20px;
    }
     
 }
