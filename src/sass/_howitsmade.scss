@@ -24,8 +24,8 @@
     width: 1200px;
     height: 521px;
     border: none;
-    // position: relative;
-    // z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 .him-img-text {
@@ -38,7 +38,8 @@
     width: 501px;
     height: 501px;
     margin-left: 16px;
-    // z-index: 3;
+    position: relative;
+    z-index: 1;
 }
 
 .him-texts {
