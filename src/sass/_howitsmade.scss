@@ -30,13 +30,17 @@
 
 .him-img-text {
     display: flex;
-    flex-direction: column;
+   
 }
 
 .him-cow-milk {
     width: 501px;
     height: 501px;
     // z-index: 3;
+}
+
+.him-texts {
+    padding-left: 99px;
 }
 
 .him-par-1 {
@@ -62,6 +66,16 @@
     border: none;
     border-radius: 22px;
     background: var(--White);
+    color: var(--Dark-Red-Pink);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.him-button-arrow {
+    stroke-width: 4px;
+    fill: var(--Dark-Red-Pink);
 }
 
 .him-details {
