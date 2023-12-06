@@ -2,7 +2,7 @@
     background: #FFF5F6;
     position: relative;
     margin-top: 60px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .heading-four {
@@ -18,14 +18,14 @@
 
 .him-bg {
     background: url('../images/sectionbg1.png'),
-                 lightgray 0px -0.163px / 100% 100.063%;
+                 #FFF5F6 0px -0.163px / 100% 100.063%;
     background-repeat: no-repeat;
     background-size: contain;
     width: 1200px;
     height: 521px;
     border: none;
     position: relative;  
-    z-index: 2;
+    z-index: 1;
 }
 
 .him-img-text {
@@ -33,13 +33,13 @@
 }
 
 .him-cow-milk {
-    background: url('../images/him-pic-1.jpg'), 
-                lightgray 50% / cover no-repeat;
+    background: url('../images/him-pic-cow.png'), 
+                #FFF5F6 50% / cover no-repeat;
     width: 501px;
     height: 501px;
     margin-left: 16px;
     position: relative;   
-    z-index: 1;
+    z-index: 3;
 }
 
 .him-texts {
