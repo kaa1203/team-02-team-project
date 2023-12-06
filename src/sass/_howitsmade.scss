@@ -2,7 +2,7 @@
     background: #FFF5F6;
     position: relative;
     margin-top: 60px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .heading-four {
@@ -17,7 +17,7 @@
 }
 
 .him-bg {
-    background: url('../images/him-section-bg.jpg'),
+    background: url('../images/sectionbg1.png'),
                  lightgray 0px -0.163px / 100% 100.063%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -25,8 +25,7 @@
     height: 521px;
     border: none;
     position: relative;  
-    z-index: 1;
-    background: #FFF5F6;
+    z-index: 2;
 }
 
 .him-img-text {
