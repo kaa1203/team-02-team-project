@@ -95,6 +95,7 @@
 .him-details {
     display: flex;
     flex-direction: row;
+    margin-top: 40px;
 }
 
 .him-info-1,
@@ -130,7 +131,15 @@
 }
 
 @media screen and (min-width: 780px) and (max-width: 1199px) {
+    .container {
+        width: 780px;
+    }
     
+    .him-cow-milk {
+        width: 336px;
+        height: 335px;
+        margin-left: 32px;
+    }
     }
 
 @media (max-width: 779px) {
