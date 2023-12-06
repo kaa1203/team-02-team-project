@@ -278,6 +278,11 @@
         flex-direction: column;
    }
 
+   .him-heading-nos {
+        padding-top: 16px;
+        padding-bottom: 4px;
+   }
+
    .him-icons {
     margin-top: 40px;
     margin-left: 20px;
@@ -291,22 +296,22 @@
     height: 36px;        
     }
 
-.him-info-2 {
-    font-size: 12px;
-    line-height: 170%;
-    letter-spacing: 0.24px;
-    width: 280px;
-    height: 36px;        
+    .him-info-2 {
+        font-size: 12px;
+        line-height: 170%;
+        letter-spacing: 0.24px;
+        width: 280px;
+        height: 36px;        
     }
 
-.him-info-3 {
-    font-size: 12px;
-    line-height: 170%;
-    letter-spacing: 0.24px;
-    width: 280px;
-    height: 57px;
-    flex-wrap: wrap;     
+    .him-info-3 {
+        font-size: 12px;
+        line-height: 170%;
+        letter-spacing: 0.24px;
+        width: 280px;
+        height: 57px;  
     }
+        
     
 }
 
