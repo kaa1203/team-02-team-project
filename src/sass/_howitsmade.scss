@@ -51,7 +51,7 @@
     width: 400px;
     height: 104px;
     margin-top: 90px;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .him-par-2 {
@@ -61,6 +61,7 @@
     letter-spacing: 0.56px;
     width: 401px;
     height: 130px;
+    margin-bottom: 40px;
 }
 
 .him-button {
@@ -74,11 +75,17 @@
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
+    gap: 13.62px;
 }
 
 .him-button-arrow {
     stroke-width: 4px;
     fill: var(--Dark-Red-Pink);
+    width: 24px;
+    height: 14px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .him-details {
