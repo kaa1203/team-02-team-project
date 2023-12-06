@@ -27,6 +27,7 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
 .link {
@@ -98,6 +99,12 @@ img {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
 }
 
 //for comment icon
