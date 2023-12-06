@@ -265,21 +265,13 @@
         letter-spacing: 0.48px;
         width: 220px;
         height: 171px;
+        margin-left: 20px;
         margin-bottom: 20px;
     }
 
-    .him-bg {
-        background: url('../images/him-section-bg-mobile.jpg'),
-                     lightgray 0px -0.042px / 100% 100.063%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 320px;
-        height: 100vh;
-        border: none;
-        position: relative;  
-        z-index: 1;
-        background: #FFF5F6;
-    }
+   .him-details {
+        margin-top: 195px;
+   }
     
 }
 
