@@ -1,7 +1,6 @@
 .him-section {
     background: #FFF5F6;
     position: relative;
-    z-index: 3;
     margin-top: 60px;
 }
 
@@ -24,8 +23,7 @@
     width: 1200px;
     height: 521px;
     border: none;
-    position: relative;
-    z-index: 2;
+    position: relative;  
 }
 
 .him-img-text {
@@ -39,8 +37,7 @@
     width: 501px;
     height: 501px;
     margin-left: 16px;
-    position: relative;
-    z-index: 1;
+    position: relative;   
 }
 
 .him-texts {
@@ -145,15 +142,35 @@
         width: 336px;
         height: 335px;
         margin-left: 32px;
+        margin-right: 32px;
+        background: url('../images/him-pic-1-tab.jpg'), 
+        lightgray 50% / cover no-repeat;
     }
+
+    .him-par-1 {
+        font-size: 14px;
+        line-height: 174%;
+        letter-spacing: 0.56px;
+        width: 334px;
+        height: 95px;
+        margin-top: 40px;
+        margin-bottom: 32px;
     }
+    
+    .him-par-2 {
+        width: 334px;
+        height: 155px;
+        margin-bottom: 40px;
+    }
+
+}
 
 @media (max-width: 779px) {
     .container {
         width: 320px;
     }
     
-    }
+}
 
 
 
