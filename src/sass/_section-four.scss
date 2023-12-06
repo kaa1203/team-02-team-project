@@ -1,0 +1,162 @@
+.section-four {
+    background-color: var(--Pinkish-White);
+}
+
+.section-four .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+}
+
+.section-four-list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    position: absolute;
+    top: -17%;
+}
+
+.section-four-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+    gap: 32px;
+    padding: 40px;
+    background-color: var(--White);
+    width: calc(100% / 3 - 32px);
+    border-radius: 24px;
+    box-shadow: 0px 8px 30px 0px var(--Brown-Transparent);
+}
+
+.card-title {
+    align-self: start;
+    color: var(--White);
+    background-color: var(--Light-Brown);
+    border-radius: 4px;
+    padding: 0px 15px;
+    text-transform: uppercase;
+}
+
+.card-location,
+.card-day {
+    color: var(--Black);
+}
+
+li:nth-child(2) .card-title {
+    background-color: var(--Light-Green);
+}
+
+.card-details,
+.card-contacts {
+    color: var(--Brown);
+}
+
+.card-time {
+    color: var(--Pink);
+}
+
+.card-contacts .link:hover {
+    color: var(--Dark-Red-Pink);
+}
+
+.card-schedule::after,
+.card-location-wrapper::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--Grey);
+    margin-top: 32px;
+}
+
+.section-four .button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    padding: 6px 20px;
+}
+
+.section-four-buttons::before {
+    content: "";
+    display: block;
+    height: 450px;
+}
+
+@media (max-width:779px) { 
+    .section-four .container {
+        width: 320px;
+    }
+
+    .section-four-list {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 12px;
+        letter-spacing: 0.48px;
+        line-height: 22.32px;
+        top: -24%;
+    }
+
+    .section-four-card {
+        width: 100%;
+    }
+
+    .card-title {
+        padding: 0 24px;
+    }
+
+    .card-details {
+        line-height: 18px;
+    }
+
+    .section-four-buttons::before {
+        content: "";
+        display: block;
+        height: 1075px;
+    }
+
+    .section-four .button {
+        padding: 5px;
+        margin-left: 75px;
+        margin-bottom: 10px;
+        width: 162px;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 1199px) {     
+    .section-four .container {
+        width: 780px;
+    }
+
+    .section-four-card {
+        padding: 32px;
+    }
+
+    .card-title,
+    .card-schedule,
+    .card-contacts {
+        font-size: 14px;
+        line-height: 26.04px;
+    }
+
+    .card-details {
+        font-size: 14px;
+        line-height: 23.24px;
+        width: 176px;
+    }
+
+    .section-four-list {
+        top: -72%;
+    }
+
+    .section-four-buttons::before {
+        content: "";
+        display: block;
+        height: 240px;
+    }
+}

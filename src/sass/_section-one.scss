@@ -62,6 +62,12 @@
     border-radius: 100%;
 }
 
+.ice-cream .icon-s:hover {
+    cursor: pointer;
+    fill: var(--White);
+    background-color: var(--Dark-Red-Pink);
+}
+
 .ice-cream.item .heading-three {
     font-size: 30px;
 }

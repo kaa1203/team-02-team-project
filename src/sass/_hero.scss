@@ -127,6 +127,12 @@
     background-color: var(--White);
 }
 
+.slider-text-wrapper .icon-s:hover { 
+    cursor: pointer;
+    fill: var(--White);
+    background-color: var(--Dark-Red-Pink);
+}
+
 @media (max-width:779px) {
     .hero {
         overflow-x: hidden;
