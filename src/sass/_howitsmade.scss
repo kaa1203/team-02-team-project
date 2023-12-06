@@ -284,16 +284,17 @@
    }
 
    .him-icons {
-    margin-top: 40px;
-    margin-left: 20px;
+        margin-top: 40px;
+        margin-left: 20px;
    }
 
    .him-info-1 {
-    font-size: 12px;
-    line-height: 170%;
-    letter-spacing: 0.24px;
-    width: 274px;
-    height: 36px;        
+        font-size: 12px;
+        line-height: 170%;
+        letter-spacing: 0.24px;
+        width: 274px;
+        height: 36px;   
+        margin: 0;     
     }
 
     .him-info-2 {
@@ -301,7 +302,8 @@
         line-height: 170%;
         letter-spacing: 0.24px;
         width: 280px;
-        height: 36px;        
+        height: 36px;      
+        margin: 0;  
     }
 
     .him-info-3 {
@@ -310,9 +312,8 @@
         letter-spacing: 0.24px;
         width: 280px;
         height: 57px;  
-    }
-        
-    
+        margin: 0;
+    }    
 }
 
 
