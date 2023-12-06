@@ -228,6 +228,20 @@
         font-size: 34px;
         letter-spacing: 1.36px;
     }
+
+    .him-cow-milk {
+        width: 280px;
+        height: 279px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background: url('../images/him-pic-1-mobile.jpg'), 
+        lightgray 50% / cover no-repeat;
+    }
+
+    .him-texts {
+        flex-direction: column;
+        padding-left: 0;
+    }
     
 }
 
