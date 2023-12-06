@@ -88,16 +88,37 @@
     align-items: center;
 }
 
-.him-details {
-    display: flex;
-    flex-direction: column;
+.him-button:hover {
+    background: var(--Pink);
 }
 
-.him-info {
+.him-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.him-info-1,
+.him-info-2,
+.him-info-3 {
     color: var(--Black);
     font-weight: 700;
     line-height: 176%;
     letter-spacing: 0.32px;
+}
+
+.him-info-1 {
+    width: 288px;
+    height: 79px;
+}
+
+.him-info-2 {
+    width: 317px;
+    height: 58px;
+}
+
+.him-info-3 {
+    width: 288px;
+    height: 82px;
 }
 
 
