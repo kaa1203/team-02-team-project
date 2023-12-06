@@ -27,8 +27,7 @@
 }
 
 .him-img-text {
-    display: flex;
-   
+    display: flex;   
 }
 
 .him-cow-milk {
@@ -136,6 +135,10 @@
 @media screen and (min-width: 780px) and (max-width: 1199px) {
     .container {
         width: 780px;
+    }
+
+    .him-bg {
+        background: none;
     }
     
     .him-cow-milk {
