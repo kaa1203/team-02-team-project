@@ -248,7 +248,6 @@
         font-size: 34px;
         letter-spacing: 1.36px;
         width: 200px;
-        margin-left: 56px;
     }
 
     .him-content {
@@ -262,6 +261,7 @@
         height: 279px;
         background: url('../images/him-pic-cow-mobile.png'), 
                      50% / cover no-repeat;
+        position: relative;
     }
 
     .him-texts {
