@@ -291,7 +291,9 @@
     }
 
    .him-details {
+        display: flex;
         flex-direction: column;
+        margin-top: 650px;
    }
 
    .him-heading-nos {
