@@ -3,10 +3,13 @@
     --White: #fff;
     --Pink: #FFA5BA;
     --Light-Pink: #FFB8CA;
+    --Pinkish-White: #fff5f6;
     --Dark-Red-Pink: #D41443;
     --Light-Brown: #F0D1A5;
     --Light-Green: #C2E297;
     --Brown: #907E82;
+    --Brown-Transparent:#d414431a;
+    --Grey: #E1E1E1;
 }
 
 * {
@@ -27,6 +30,7 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
 .link {
@@ -97,6 +101,12 @@ img {
     line-height: normal;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
 }
 
 //for comment icon

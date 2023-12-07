@@ -2,6 +2,10 @@
     background-color: var(--Light-Pink);
 }
 
+.hero .container {
+    padding: 0;
+}
+
 .hero .heading-two {
     line-height: 90.5%;
     letter-spacing: 2.32px;
@@ -121,6 +125,12 @@
     margin-top: 15px;
     border-radius: 50%;
     background-color: var(--White);
+}
+
+.slider-text-wrapper .icon-s:hover { 
+    cursor: pointer;
+    fill: var(--White);
+    background-color: var(--Dark-Red-Pink);
 }
 
 @media (max-width:779px) {
