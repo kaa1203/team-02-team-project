@@ -18,9 +18,9 @@
 
 .him-bg {
     background: url('../images/sectionbg1.png'),
-                 #FFF5F6 0px -0.163px / 100% 100.063%;
+             #FFF5F6 0px -0.163px / 100% 100.063%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 1200px;
     height: 521px;
     border: none;
@@ -151,7 +151,7 @@
         margin-left: 32px;
         margin-right: 32px;
         background: url('../images/him-pic-cow-tablet.png'), 
-        lightgray 50% / cover no-repeat;
+        #FFF5F6 50% / cover no-repeat;
     }
 
     .him-texts {
@@ -243,10 +243,8 @@
         height: 279px;
         margin-left: 20px;
         margin-right: 20px;
-        background-image: url('../images/him-pic-cow-mobile.png'); 
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color:  #FFF5F6;
+        background: url('../images/him-pic-cow-mobile.png'), 
+                    #FFF5F6 50% / cover no-repeat;
     }
 
     .him-texts {
