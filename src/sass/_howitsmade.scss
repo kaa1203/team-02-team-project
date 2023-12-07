@@ -27,12 +27,13 @@
 }
 
 .him-img-text {
-    display: flex;   
+    display: flex;
+    justify-content: space-between;   
 }
 
 .him-cow-milk {
     background: url('../images/him-pic-cow.png'), 
-                #FFF5F6 50% / cover no-repeat;
+             50% / cover no-repeat;
     width: 501px;
     height: 501px;
     margin-left: 16px;
@@ -41,11 +42,8 @@
 }
 
 .him-texts {
-    padding-left: 99px;
-    background: #FFF5F6;
     position: relative;
     z-index: 1;
-    justify-content: space-evenly;
 }
 
 .him-par-1 {
