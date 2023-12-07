@@ -218,10 +218,6 @@
         align-items: center;
     }
 
-    .him-content {
-        position: relative;
-    }
-
     .him-bg {
         width: 320px;
         background: url('../images/sectionbg-mobile.png'),
@@ -245,18 +241,21 @@
         padding-bottom: 32px;
     }
 
+    .him-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
     .him-cow-milk {
         width: 280px;
         height: 279px;
-        margin-left: 20px;
-        margin-right: 20px;
         background: url('../images/him-pic-cow-mobile.png'), 
                      50% / cover no-repeat;
     }
 
     .him-texts {
         flex-direction: column;
-        padding-left: 0;
     }
 
     .him-img-text {
@@ -280,9 +279,9 @@
         height: 171px;
     }
 
-    .him-button {
-        margin-left: 20px;
-    }
+    // .him-button {
+    //     margin-left: 20px;
+    // }
 
    .him-details {
         margin-top: 195px;
