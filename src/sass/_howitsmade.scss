@@ -218,12 +218,17 @@
         align-items: center;
     }
 
+    .him-content {
+        position: relative;
+    }
+
     .him-bg {
         width: 320px;
         background: url('../images/sectionbg-mobile.png'),
         #FFF5F6 0px -0.163px / 100% 100.063%;
         background-repeat: no-repeat;
         background-position: cover;
+        position: absolute;
     }
 
     .heading-four {
@@ -256,6 +261,7 @@
 
     .him-img-text {
         flex-direction: column;
+        align-items: center;
     }
 
     .him-par-1 {
@@ -264,10 +270,6 @@
         letter-spacing: 0.48px;
         width: 220px;
         height: 111px;
-        margin-top: 40px;
-        margin-left: 20px;
-        margin-right: 80px;
-        margin-bottom: 18px;
     }
     
     .him-par-2 {
@@ -276,8 +278,6 @@
         letter-spacing: 0.48px;
         width: 220px;
         height: 171px;
-        margin-left: 20px;
-        margin-bottom: 20px;
     }
 
     .him-button {
