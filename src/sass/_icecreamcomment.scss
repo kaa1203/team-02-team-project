@@ -43,7 +43,7 @@
     line-height: 186%;
 }
 
-.comment-section {
+.comment-section-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,6 +55,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 16px;
 
 }
 
@@ -122,9 +123,9 @@
         padding-right: 0;
     }
 
-    .icecream-photos {
-        background-image: url("../images/icecream-group-mobile.jpg");
-        background-size: contain;
+    .icecream-photos-wrapper {
+        background-image: url("../images/icecreams-bg-mobile.png");
+        background-size: cover;
         background-repeat: no-repeat;
         width: 320px;
         height: 136px;
@@ -181,9 +182,9 @@
         width: 780px;
     }
     
-    .icecream-photos {
-        background-image: url("../images/icecream-group-tablet.jpg");
-        background-size: contain;
+    .icecream-photos-wrapper {
+        background-image: url("../images/icecreams-bg-tablet.png");
+        background-size: cover;
         background-repeat: no-repeat;
         width: 780px;
         height: 327px;
