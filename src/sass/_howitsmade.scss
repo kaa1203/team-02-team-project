@@ -53,6 +53,9 @@
     height: 104px;
     margin-top: 90px;
     margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .him-par-2 {
@@ -217,6 +220,11 @@
         align-items: center;
         width: 320px;
         height: 1564px;
+    }
+
+    .him-heading {
+        display: flex;
+        flex-direction: column;
     }
 
     .him-bg {
