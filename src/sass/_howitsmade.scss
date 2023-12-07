@@ -243,8 +243,10 @@
         height: 279px;
         margin-left: 20px;
         margin-right: 20px;
-        background: url('../images/him-pic-cow-mobile.png'), 
-        #FFF5F6 50% / cover no-repeat;
+        background-image: url('../images/him-pic-cow-mobile.png'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color:  #FFF5F6;
     }
 
     .him-texts {
