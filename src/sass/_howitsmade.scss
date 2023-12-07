@@ -224,7 +224,8 @@
 
     .him-heading {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .him-bg {
@@ -245,9 +246,6 @@
         letter-spacing: 1.36px;
         width: 200px;
         margin-left: 56px;
-        margin-right: 64px;
-        padding-top: 15px;
-        padding-bottom: 32px;
     }
 
     .him-content {
@@ -304,7 +302,6 @@
    }
 
    .him-icons {
-        margin-top: 40px;
         margin-left: 20px;
    }
 
@@ -314,7 +311,7 @@
         letter-spacing: 0.24px;
         width: 274px;
         height: 36px;   
-        margin: 0;     
+        margin-bottom: 32px;     
     }
 
     .him-info-2 {
@@ -323,7 +320,7 @@
         letter-spacing: 0.24px;
         width: 280px;
         height: 36px;      
-        margin: 0;  
+        margin-bottom: 32px;
     }
 
     .him-info-3 {
