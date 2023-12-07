@@ -10,7 +10,7 @@
   max-width: 1200px;
   height: 44px;
   display:inline-flex;
-  margin-top:50px;
+  margin-top:0px;
 }
 .company-location {
   box-sizing: border box;
@@ -20,7 +20,7 @@ flex-shrink: 0;
   border-radius: 22px;
 background: #D41342;
   margin-left: 411px;
-  padding-top: 22px;
+  padding-top: 8px;
 }
 .company-location a{
   text-decoration: none;
@@ -44,7 +44,7 @@ flex-direction: column;
 flex-shrink: 0;
   margin-left: 12px;
   padding-left:36.4px;
-  padding-top:23px;
+  padding-top:8px;
   
 }
 .company-franchise a {
@@ -61,11 +61,12 @@ line-height: normal;
 .product {
   box-sizing:border-box;
   width:474px;
-  heigth:1700px;
+  height:116px;
   display:flex;
   flex-direction:column;
   margin-left: 16px;
   margin-top:0px;
+  background-color: tomato;
 }
 .homemade{
   height:34px;
