@@ -1,8 +1,6 @@
 .him-section {
     background: #FFF5F6;
-    position: relative;
     margin-top: 60px;
-    z-index: 3;
 }
 
 .heading-four {
@@ -25,7 +23,7 @@
     height: 521px;
     border: none;
     position: relative;  
-    z-index: 1;
+    z-index: 3;
 }
 
 .him-img-text {
@@ -45,6 +43,8 @@
 .him-texts {
     padding-left: 99px;
     background: #FFF5F6;
+    position: relative;
+    z-index: 1
 }
 
 .him-par-1 {
