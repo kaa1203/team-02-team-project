@@ -269,18 +269,66 @@ flex-shrink: 0;
 height: 1513px;
 flex-shrink: 0;
 flex-direction: column;
-position: relative;
   }
   .last .info {
-    display: flex;
-    width: 44px;
+    min-width: 320px;
     height: 98px;
     flex-direction: column;
-    margin-left: 78px;
+    margin-left: calc(78px + 205px);
+    margin-top: 1005px;
   }
   .company-location {
-    width: 161.45px;
+   width: calc(101.45px + 96px);
 height: 44px;
 flex-shrink: 0;
+margin-left: 70px;
+  }
+  .company-franchise {
+    width: calc(101.45px + 96px);
+    height: 44px;
+    flex-shrink: 0;
+    margin-left: 78px;
+    margin-top: 10px;
+  }
+  .product {
+    height: 128px;
+    width: 232px;
+    margin-top: 40px;
+  }
+  .homemade {
+    width: 232px;
+height: 42px;
+flex-shrink: 0;
+  }
+  .homemade h3 {
+    color: #FFA5BA;
+font-family: Titan One;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+  }
+  .passion {
+    width: 200px;
+height: 76px;
+flex-shrink: 0;
+  }
+  .passion h2 {
+    color: #D41443;
+font-family: Titan One;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.36px;
+text-transform: uppercase;
+  }
+  .contact {
+    height: 94px;
+  width: 230px;
+  margin-left: 70px;
+  margin-top: 40px;
+  background-color: tomato;
   }
 }
