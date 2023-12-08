@@ -224,7 +224,7 @@ border-radius: 22px;
 background: #FFF;
 }
 .product {
-    margin-top: 33%;
+    margin-top: 5%;
 }
 .homemade {
     width: 340px;
@@ -243,9 +243,20 @@ text-transform: uppercase;
 .passion {
     width: 340px;
 }
-.contact {
-    margin-left: 55%;
-
+.last .contact {
+    margin-left: 46.5%;
+    margin-top: 12%;
+}
+.end-footer {
+  margin-left: 31%;
+}
+.vector-8 {
+  min-width: 768px;
+  height: 0px;
+  flex-shrink: 0;
+}
+.end-footer {
+  
 }
 }
     
