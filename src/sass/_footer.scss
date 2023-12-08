@@ -197,3 +197,12 @@ font-weight: 700;
 line-height: 186%; /* 26.04px */
 letter-spacing: 0.28px;
 }
+@media  screen and (min-width:780px) and (max-width:1199px) {
+.last {
+    min-height: 772px;
+height: 1164px;
+flex-shrink: 0;
+background: #FFF5F6;
+}
+}
+    
