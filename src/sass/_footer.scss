@@ -199,10 +199,45 @@ letter-spacing: 0.28px;
 }
 @media  screen and (min-width:780px) and (max-width:1199px) {
 .last {
-    min-height: 772px;
+    min-width: 772px;
 height: 1164px;
 flex-shrink: 0;
 background: #FFF5F6;
+}
+.company-location {
+    display: flex;
+  box-sizing: border box;
+   max-width: 191px;
+height: 44px;
+flex-shrink: 0;
+  border-radius: 22px;
+background: #D41342;
+  margin-left: 95%;
+  padding-top: 0px;
+}
+.company-franchise {
+    min-width: 174.046px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 22px;
+background: #FFF;
+}
+.homemade {
+    width: 340px;
+height: 57px;
+}
+.homemade h3 {
+color: #FFA5BA;
+font-family: Titan One;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.04px;
+text-transform: uppercase;
+}
+.passion {
+    width: 340px;
 }
 }
     
