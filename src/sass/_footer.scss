@@ -132,7 +132,6 @@ text-transform: uppercase;
     display: block;
   width:319px;
   height:104px;
-   display:flex;
   flex-direction:column;
   margin-left:865px;
   margin-top:121px;
@@ -144,6 +143,9 @@ text-transform: uppercase;
   margin-top:0px;
   justify-content: space-between;
   display: flex;
+}
+.github .telegram .facebook {
+  cursor: pointer;
 }
  .feel {
   width:319px;
@@ -274,7 +276,7 @@ flex-direction: column;
     min-width: 320px;
     height: 98px;
     flex-direction: column;
-    margin-left: calc(78px + 205px);
+    margin-left: calc(58px + 20px);
     margin-top: 1005px;
   }
   .company-location {
@@ -294,6 +296,7 @@ margin-left: 70px;
     height: 128px;
     width: 232px;
     margin-top: 40px;
+    margin-left: 20px;
   }
   .homemade {
     width: 232px;
@@ -324,11 +327,40 @@ line-height: normal;
 letter-spacing: 1.36px;
 text-transform: uppercase;
   }
-  .contact {
+  .last .contact {
     height: 94px;
-  width: 230px;
-  margin-left: 70px;
-  margin-top: 40px;
-  background-color: tomato;
+  width: 245px;
+  margin-left: 78px;
+  margin-top: 214px;
+  }
+  .icon {
+    width: 152.48px;
+    height: 32px;
+    margin-left: 92.5px;
+  }
+  .feel {
+    width: 245px;
+    height: 22px;
+  }
+  .feel .free {
+    color: #000;
+text-align: right;
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 186%; /* 22.32px */
+  }
+  .feel .end {
+    color: #D41443;
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 186%;
+  }
+  .telegram .github .facebook {
+    width: 32px;
+    height: 32px;
   }
 }
