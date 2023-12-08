@@ -22,6 +22,17 @@ background: #D41342;
   margin-left: 411px;
   padding-top: 8px;
 }
+.company-location .location {
+    width: 109px;
+    background-color: white;
+}
+.company-location > img {
+    width: 4.428px;
+height: 8px;
+flex-shrink: 0;
+stroke-width: 2px;
+stroke: #FFF;
+}
 .company-location a{
   text-decoration: none;
 font-family: DM Sans;
@@ -80,7 +91,7 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 6.8px;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
 }
 .passion{
@@ -108,18 +119,18 @@ text-transform: uppercase;
   margin-left:865px;
   margin-top:121px;
 }
-.contact .icon{
+ .icon{
   width:162px;
   height:34px;
   margin-left:157px;
   margin-top:0px;
-  
+  justify-content: space-between;
+  display: flex;
 }
- .fell {
+ .feel {
   width:319px;
   height:30px;
   margin-top:40px;
-  background-color: tomato;
 }
 .feel .free{
   color: #000;
@@ -141,7 +152,7 @@ line-height: 186%;
 letter-spacing: 0.32px;
 }
 .adjourn {
-    margin-top: 290px;
+    margin-top: 60px;
 }
 .vector-8 {
     margin-left: 17px;
@@ -149,7 +160,7 @@ letter-spacing: 0.32px;
     width: 1167px;
 height: 0px;
 stroke: #E1E1E1;-shrink: 0;
-
+stroke-width: 1px;
 }
 .end-footer{
   width:283px;
