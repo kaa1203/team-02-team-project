@@ -262,13 +262,18 @@ flex-shrink: 0;
   margin-top: 4%;
 }
 }
-@media screen (max-width:779px) {
+@media screen and (max-width:779px) {
   .last {
     min-width: 320px;
 height: 1513px;
 flex-shrink: 0;
   }
-  .location {
-    
+  .info {
+    display: flex;
+    min-width: 44px;
+    height: 98px;
+    flex-direction: column;
+    margin-left: 78px;
+    margin-top: 78%;
   }
 }
