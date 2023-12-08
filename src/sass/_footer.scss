@@ -54,6 +54,7 @@ margin-left: 13.62px;
     line-height: normal;
 }
 .company-franchise {
+    display: flex;
   border-radius: 22px;
 background: #FFF;
   box-sizing:border box;
@@ -62,9 +63,12 @@ height: 44px;
 flex-direction: column;
 flex-shrink: 0;
   margin-left: 12px;
-  padding-left:36.4px;
-  padding-top:8px;
-  
+}
+.company-franchise .franchise {
+    height: 44px;
+    width: 75px;
+    margin-left: 36.4px;
+    margin-top: 8px;
 }
 .company-franchise a {
   text-decoration:none;
@@ -75,7 +79,13 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-  margin-top: 5px;
+}
+.company-franchise > img {
+    width: 4.132px;
+height: 8px;
+flex-shrink: 0;
+stroke-width: 2px;
+stroke: #D41443;
 }
 .product {
     position: absolute;
