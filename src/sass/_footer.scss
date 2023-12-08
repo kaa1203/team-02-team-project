@@ -32,6 +32,7 @@ stroke: #FFF;
 margin-left: 35px;
 margin-top: 19px;
 margin-left: 13.62px;
+cursor: pointer;
 }
 .company-location .location {
     width: 113px;
@@ -60,15 +61,13 @@ background: #FFF;
   box-sizing:border box;
 width: 168px;
 height: 44px;
-flex-direction: column;
 flex-shrink: 0;
   margin-left: 12px;
 }
 .company-franchise .franchise {
-    height: 44px;
     width: 75px;
     margin-left: 36.4px;
-    margin-top: 8px;
+    padding-top: 8px;
 }
 .company-franchise a {
   text-decoration:none;
@@ -86,6 +85,9 @@ height: 8px;
 flex-shrink: 0;
 stroke-width: 2px;
 stroke: #D41443;
+margin-left: 19.71px;
+margin-top: 19px;
+cursor: pointer;
 }
 .product {
     position: absolute;
