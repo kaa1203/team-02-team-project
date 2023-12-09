@@ -4,6 +4,7 @@
     flex-shrink: 0;
     background: #FFF5F6;
   position: relative;
+  margin: 0 auto;
 }
 .info {
   max-width: 1200px;
@@ -200,6 +201,7 @@ letter-spacing: 0.28px;
 @media  screen and (min-width:780px) and (max-width:1199px) {
 .last {
     width: 772px;
+    width: 100vw;
 height:625px;
 flex-shrink: 0;
 background: #FFF5F6;
@@ -224,7 +226,7 @@ height: 44px;
 flex-shrink: 0;
 border-radius: 22px;
 background: #FFF;
-margin-left: 14.3px;
+margin-left: calc(14.3px + 2px);
 }
 .product {
     margin-top: 40px;
@@ -262,9 +264,15 @@ flex-shrink: 0;
   min-width: 768px;
   height: 0px;
   flex-shrink: 0;
+  margin-left: 3px;
 }
 .adjourn {
   margin-top: 40px;
+}
+.vector-8 {
+  width: 768px;
+height: 0px;
+flex-shrink: 0;
 }
 .end-footer {
   margin-left: 246px;
