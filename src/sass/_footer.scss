@@ -144,7 +144,7 @@ text-transform: uppercase;
   justify-content: space-between;
   display: flex;
 }
-.github .telegram .facebook {
+.git, .telegram, .facebook {
   cursor: pointer;
 }
  .feel {
@@ -199,34 +199,37 @@ letter-spacing: 0.28px;
 }
 @media  screen and (min-width:780px) and (max-width:1199px) {
 .last {
-    min-width: 772px;
-height: 1164px;
+    width: 772px;
+height:625px;
 flex-shrink: 0;
 background: #FFF5F6;
 }
 .info {
-    margin-top: 65%;
+    margin-top: 290px;
 }
 .company-location {
     display: flex;
   box-sizing: border box;
-   max-width: 191px;
+   width: 191px;
 height: 44px;
 flex-shrink: 0;
   border-radius: 22px;
 background: #D41342;
-  margin-left: 95%;
+  margin-left: 194px;
 
 }
 .company-franchise {
-    min-width: 174.046px;
+    width: 174.046px;
 height: 44px;
 flex-shrink: 0;
 border-radius: 22px;
 background: #FFF;
+margin-left: 14.3px;
 }
 .product {
-    margin-top: 5%;
+    margin-top: 40px;
+    height: 88px;
+    width: 340px;
 }
 .homemade {
     width: 340px;
@@ -246,8 +249,8 @@ text-transform: uppercase;
     width: 340px;
 }
 .last .contact {
-    margin-left: 53.5%;
-    margin-top: 11%;
+    margin-left: 431px;
+    margin-top: 100px;
 }
 .end-footer {
   margin-left: 31%;
@@ -261,13 +264,16 @@ flex-shrink: 0;
   flex-shrink: 0;
 }
 .adjourn {
-  margin-top: 4%;
+  margin-top: 40px;
+}
+.end-footer {
+  margin-left: 246px;
 }
 }
 @media screen and (max-width:779px) {
   .last {
     margin-top: 363px;
-    min-width: 320px;
+    width: 320px;
 height: 1513px;
 flex-shrink: 0;
 flex-direction: column;
@@ -283,13 +289,13 @@ flex-direction: column;
    width: calc(101.45px + 96px);
 height: 44px;
 flex-shrink: 0;
-margin-left: 70px;
+margin-left: 0px;
   }
   .company-franchise {
     width: calc(101.45px + 96px);
     height: 44px;
     flex-shrink: 0;
-    margin-left: 78px;
+    margin-left: 0px;
     margin-top: 10px;
   }
   .product {
@@ -330,7 +336,7 @@ text-transform: uppercase;
   .last .contact {
     height: 94px;
   width: 245px;
-  margin-left: 78px;
+  margin-left: 55px;
   margin-top: 214px;
   }
   .icon {
@@ -362,5 +368,26 @@ line-height: 186%;
   .telegram .github .facebook {
     width: 32px;
     height: 32px;
+  }
+  .adjourn {
+  margin-top: 40px;
+  height: 62px;
+  min-width: 320px;
+  }
+  .end-footer {
+    width: 280px;
+    height: 42px;
+    margin-left: 20px;
+    margin-top: 16px;
+    padding-left: 15px;
+  }
+  .end-footer p {
+    color: #907E82;
+text-align: center;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 152%; /* 21.28px */
   }
 }
