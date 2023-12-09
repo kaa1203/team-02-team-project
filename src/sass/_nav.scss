@@ -1,0 +1,25 @@
+.nav {
+    background-color: var(--Light-Pink);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 200px;
+    height: 50px;
+    background: url(../images/ice-cream-logo.svg) center no-repeat;
+}
+
+.nav-list {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-button .button {
+    display: flex;
+    align-items: center;
+}
