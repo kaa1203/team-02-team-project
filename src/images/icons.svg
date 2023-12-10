@@ -1,6 +1,14 @@
 <svg aria-hidden="true" style="position:absolute;width:0;height:0" xmlns="http://www.w3.org/2000/svg" overflow="hidden">
     <defs>
 
+        <symbol id="menu" viewBox="0 0 20 20">
+            <path d="M0 3h20v2h-20v-2zM0 9h20v2h-20v-2zM0 15h20v2h-20v-2z"></path>
+        </symbol>
+
+        <symbol id="close" viewBox="0 0 20 20">
+            <path d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"></path>
+        </symbol>
+
         <symbol id="heart" fill="none" viewBox="0 0 46 52">
             <mask id="a" width="46" height="52" x="0" y="0" fill="#000" maskUnits="userSpaceOnUse">
                 <path fill="#fff" d="M0 0h46v52H0z"/>

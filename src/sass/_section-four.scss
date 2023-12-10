@@ -94,6 +94,7 @@ li:nth-child(2) .card-title {
 
     .section-four-list {
         flex-direction: column;
+        align-items: center;
         gap: 20px;
         font-size: 12px;
         letter-spacing: 0.48px;
@@ -102,7 +103,7 @@ li:nth-child(2) .card-title {
     }
 
     .section-four-card {
-        width: 100%;
+        width: 90%;
     }
 
     .card-title {

@@ -5,23 +5,26 @@
             </div>
             <ul class="nav-list list">
                 <li class="nav-item">
-                    <a href="#home" class="link active">Home</a>
+                    <a href="#hero" class="link active">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#home" class="link active">About Us</a>
+                    <a href="#sectionOne" class="link">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#home" class="link active">How it's made?</a>
+                    <a href="#sectionTwo" class="link">How it's made?</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#home" class="link active">Our products</a>
+                    <a href="#sectionThree" class="link">Our products</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#home" class="link active">Contacts</a>
+                    <a href="#sectionFour" class="link">Contact</a>
                 </li>
             </ul>
             <div class="nav-button">
-                <a href="" class="link button">
+                <svg class="icon menu" id="navButton">
+                    <use href="./images/icons.svg#menu"></use>
+                </svg>
+                <a href="#" class="link button">
                     Buy now
                     <svg class="icon">
                         <use href="./images/icons.svg#arrow-two"></use>
@@ -29,5 +32,39 @@
                 </a>
             </div>
         </nav>
+
+        <div class="nav-menu is-hidden" id="navMenu">
+            <div class="nav-menu-container">
+                <svg class="icon close" id="navClose">
+                    <use href="./images/icons.svg#close"></use>
+                </svg>
+                <div class="nav-menu-wrapper">
+                    <a href="#" class="link button">
+                        Buy now
+                        <svg class="icon">
+                            <use href="./images/icons.svg#arrow-two"></use>
+                        </svg>
+                    </a>
+
+                    <ul class="nav-menu-list list">
+                        <li class="nav-menu-item">
+                            <a href="#nav" class="link active">Home</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#hero" class="link">About Us</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#sectionTwo" class="link">How it's made?</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#sectionOne" class="link">Our products</a>
+                        </li>
+                        <li class="nav-menu-item">
+                            <a href="#footer" class="link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </header>
