@@ -1,3 +1,16 @@
+.icecream-wrapper {
+    position: relative;
+    width: 1013px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+.icecream-photos {
+    position: absolute;
+    top: -108.6%;
+    left: 0;
+
+}
 
 .testimonial {
     color: #000;
@@ -8,9 +21,6 @@
     font-weight: 500;
     line-height: 186%;
     letter-spacing: 0.64px;
-    width: 750px;
-    height: 52px;
-    padding-right: 108px;    
     position: relative;
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -20,7 +30,7 @@
 
 
 .icecream-photos {
-    background-image: url("../images/icecream-group.jpg");
+    background-image: url("../images/icecream-bg.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 1013px;
@@ -49,6 +59,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
 }
 
 .comment-image {
@@ -58,16 +69,20 @@
 }
 
 .comment-quote {
+    position: absolute;
+    top: 22px;
+    left: 24px;
     fill: #E1E1E1;
-    margin-top: -45px;
+    border-bottom: 2px solid #e1e1e1;
+    // margin-top: -45px;
 }
 
 .comment-text {
     display: flex;
     justify-content: center;
-    align-items:center;
-    width: 968px;
-    height: 138px;
+    align-items: start;
+    width: 835px;
+    padding: 30px 40px;
     background: #FAFAFA;
     position: relative;
 }
@@ -105,6 +120,11 @@
     .container {
         width: 320px;
     }
+
+    .icecream-wrapper {
+        width: 320px;
+        height: 50px;
+    }
         
     .testimonial {
         display: flex;
@@ -116,17 +136,16 @@
         letter-spacing: 0.48px;
         position: relative;
         margin-top: 20px;
-        margin-left: -35px;
+        margin-left: -10px;
         z-index: 2;
         padding-right: 0;
     }
 
     .icecream-photos {
-        background-image: url("../images/icecream-group-mobile.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
         width: 320px;
         height: 136px;
+        margin: 0;
+        top: -177.6%;
     }
 
     .icecream-images {
@@ -139,6 +158,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 15px;
     }
 
     .comment-image {
@@ -155,12 +175,13 @@
     }
 
     .comment-quote {
-        margin-top: -192px;
+        margin-top: -11px;
         margin-left: -40px;
         position: relative;
         z-index: 1;
         width: 54px;
         height: 40px;
+        border: none;
     }
 
     .comment-symbols {
@@ -180,10 +201,13 @@
         width: 780px;
     }
     
+    .icecream-wrapper {
+        width: 780px;
+        height: 100px;
+    }
+
     .icecream-photos {
-        background-image: url("../images/icecream-group-tablet.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
+        top: -325px;
         width: 780px;
         height: 327px;
     }
@@ -211,6 +235,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 30px;
     }
     .comment-image {
         margin-top: 60px;
@@ -223,11 +248,13 @@
     }
 
     .comment-quote {
-        margin-top: -83px;
+        margin-top: -34px;
         position: relative;
         z-index: 1;
         width: 60.353px;
         height: 40px;
+        border: none;
+        left: -8px;
     }
 
     .comment-symbols {
