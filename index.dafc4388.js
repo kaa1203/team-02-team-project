@@ -1,0 +1,2 @@
+const e=document.getElementById("navButton"),n=document.getElementById("navMenu"),t=document.getElementById("navClose"),s=document.getElementsByClassName("nav-menu-list");e.addEventListener("click",(function(){n.classList.toggle("is-hidden")})),t.addEventListener("click",(function(){n.classList.toggle("is-hidden")})),s[0].addEventListener("click",(function(){n.classList.toggle("is-hidden")}));
+//# sourceMappingURL=index.dafc4388.js.map

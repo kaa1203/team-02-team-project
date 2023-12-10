@@ -1,0 +1,2 @@
+!function(){var e=document.getElementById("navButton"),n=document.getElementById("navMenu"),t=document.getElementById("navClose"),i=document.getElementsByClassName("nav-menu-list");e.addEventListener("click",(function(){n.classList.toggle("is-hidden")})),t.addEventListener("click",(function(){n.classList.toggle("is-hidden")})),i[0].addEventListener("click",(function(){n.classList.toggle("is-hidden")}))}();
+//# sourceMappingURL=index.79fa94c4.js.map
