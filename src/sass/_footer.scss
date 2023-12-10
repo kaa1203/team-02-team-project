@@ -1,3 +1,6 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
 .last {
     width: 1200px;
     height: 877px;
@@ -200,7 +203,7 @@ letter-spacing: 0.28px;
 }
 @media  screen and (min-width:780px) and (max-width:1199px) {
 .last {
-    width: 772px;
+    min-width: 772px;
     max-width: 100vw;
 height:625px;
 flex-shrink: 0;
