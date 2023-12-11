@@ -218,7 +218,7 @@ letter-spacing: 0.28px;
     box-sizing: border-box;
   }
 .last {
-    width: 772px;
+    width: calc(65% + 80px);
 height:625px;
 flex-shrink: 0;
 background: #FFF5F6;
@@ -302,7 +302,7 @@ flex-shrink: 0;
   .last {
     margin: 0 auto;
     margin-top: 363px;
-    width: 320px;
+    width: calc(27% + 5px);
 height: 1513px;
 flex-shrink: 0;
 flex-direction: column;
