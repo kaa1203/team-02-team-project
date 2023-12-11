@@ -91,6 +91,10 @@
     background-color: var(--Light-Green);
 }
 
+// to remove the underline to other last-child
+ul:last-child {
+    border: none;
+}
 @media (max-width: 779px) {
     .section-one .container {
         width: 320px;
